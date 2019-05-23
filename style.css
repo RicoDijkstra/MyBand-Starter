@@ -1,0 +1,199 @@
+html{
+  background-image: url("img/graffiti.jpg");
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: Quicksand;
+}
+.navigatie {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 100px;
+  border-bottom: 1px solid orange;
+  margin-left: -10%;
+  margin-top: -2.7%;
+  padding-bottom: 20px;
+  z-index: 9999999;
+}
+.item{
+  text-decoration: none;
+  margin-left: 9%;
+  color: white;
+  font-size: 2em;
+  -o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+/* ...and now for the proper property */
+transition: .5s;
+}
+.item:hover{
+  text-decoration: none;
+  margin-left: 9%;
+  color: orange;
+  font-size: 2em;
+}
+.sitemix{
+  color: orange;
+  font-size: 3em;
+  text-decoration: none;
+  margin-left: 9%;
+}
+
+#slideshow {
+  overflow: hidden;
+  border: 1px solid orange;
+  height: 510px;
+  width: 728px;
+  margin-left: 25%;
+  /* margin: 0 auto; */
+  position: absolute;
+  margin-top: 10%;
+
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 15s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+.tekst{
+  background-color: black;
+  color: white;
+  position: absolute;
+  width: 728px;
+  margin-top: 50%;
+  margin-left: 25%;
+  border: 1px solid orange;
+  font-size: 1.8em;
+  text-align: center;
+}
+.fles{
+  margin-top: 85%;
+  margin-left: 37.5%;
+  border: 1px solid orange;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid orange;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.rico{
+  margin-left: 3%;
+  font-size: 1.5em;
+}
+.lijn{
+  height: 60px;
+  margin-top: 0.5%;
+  margin-left: 1.6%;
+  width: 1px;
+  background-color: white;
+}
+.copyright{
+  height: 80px;
+  width: auto;
+  margin-left: 76%;
+}
+.ig{
+  width: auto;
+  height: 40px;
+  margin-left: 20%;
+  margin-top: 1%;
+  position: absolute;
+}
+.fb{
+  width: auto;
+  height: 40px;
+  margin-left: 35%;
+  margin-top: 1%;
+  position: absolute;
+}
+.yt{
+  width: auto;
+  height: 40px;
+  margin-left: 50%;
+  margin-top: 1%;
+  position: absolute;
+}
+.tt{
+  width: auto;
+  height: 40px;
+  margin-left: 65%;
+  margin-top: 1%;
+  position: absolute;
+}
+.sc{
+  width: auto;
+  height: 40px;
+  margin-left: 80%;
+  margin-top: 1%;
+  position: absolute;
+}
+
+/* Hover van iconen */
+.ig:hover{
+  width: auto;
+  height: 40px;
+  margin-left: 20%;
+  margin-top: 1%;
+  position: absolute;
+}
+.fb:hover{
+  width: auto;
+  height: 40px;
+  margin-left: 35%;
+  margin-top: 1%;
+  position: absolute;
+}
+.yt:hover{
+  width: auto;
+  height: 40px;
+  margin-left: 50%;
+  margin-top: 1%;
+  position: absolute;
+}
+.tt:hover{
+  width: auto;
+  height: 40px;
+  margin-left: 65%;
+  margin-top: 1%;
+  position: absolute;
+}
+.sc:hover{
+  width: auto;
+  height: 40px;
+  margin-left: 80%;
+  margin-top: 1%;
+  position: absolute;
+}
