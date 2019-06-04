@@ -11,7 +11,7 @@ html{
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 100px;
-  border-bottom: 2px solid orange;
+  border-bottom: 1px solid orange;
   margin-left: -10%;
   margin-top: -2.7%;
   padding-bottom: 20px;
@@ -26,6 +26,7 @@ html{
 -ms-transition:.5s;
 -moz-transition:.5s;
 -webkit-transition:.5s;
+/* ...and now for the proper property */
 transition: .5s;
 }
 .item:hover{
@@ -41,68 +42,20 @@ transition: .5s;
   margin-left: 9%;
 }
 
-#slideshow {
-  overflow: hidden;
-  border: 2px solid orange;
-  height: 55%;
-  width: 43.1%;
-  margin-left: 25%;
-  /* margin: 0 auto; */
-  position: absolute;
-  margin-top: 10%;
-
-}
-
-.slide-wrapper {
-  width: 2912px;
-  -webkit-animation: slide 15s ease infinite;
-}
-
-.slide {
-  float: left;
-  height: 510px;
-  width: 728px;
-}
-
-
-
-.slide-number {
-  color: #000;
-  text-align: center;
-  font-size: 10em;
-}
-
-@-webkit-keyframes slide {
-  20% {margin-left: 0px;}
-  30% {margin-left: -728px;}
-  50% {margin-left: -728px;}
-  60% {margin-left: -1456px;}
-  70% {margin-left: -1456px;}
-  80% {margin-left: -2184px;}
-  90% {margin-left: -2184px;}
-}
-.tekst{
+ .tvak{
   background-color: black;
-  color: white;
+  height: 190%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
   position: absolute;
-  width: 43.1%;
-  margin-top: 50%;
-  margin-left: 25%;
-  border: 2px solid orange;
-  font-size: 1.8em;
-  text-align: center;
-}
-.fles{
-  margin-top: 85%;
-  margin-left: 37.5%;
-  border: 2px solid orange;
 }
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  border-top: 2px solid orange;
+  border-top: 1px solid orange;
   background-color: black;
   color: white;
   display: flex;
@@ -128,14 +81,13 @@ cursor: pointer;
   margin-top: 0.5%;
   margin-left: 1.6%;
   width: 1px;
-  background-color: orange;
+  background-color: white;
 }
 .copyright{
   height: 80px;
   width: auto;
   margin-left: 76%;
 }
-/* iconen */
 .ig{
   width: auto;
   height: 40px;
@@ -176,7 +128,6 @@ cursor: pointer;
   position: absolute;
   cursor: pointer;
 }
-
 /* Hover van iconen */
 .ig:hover{
   width: auto;
@@ -212,4 +163,17 @@ cursor: pointer;
   margin-left: 80%;
   margin-top: 1%;
   position: absolute;
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 152px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 5%;
+  position: absolute;
+}
+.grid-item{
+  width: 300px;
+  height: auto;
+  border: 2px solid orange;
+  margin-top: 15%;
 }

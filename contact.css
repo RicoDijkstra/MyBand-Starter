@@ -71,7 +71,16 @@ transition: .5s;
   text-align: center;
   font-size: 10em;
 }
-
+.tvak{
+ background-color: black;
+ height: 77%;
+ width: 80%;
+ margin-left: 10%;
+ margin-top: 10%;
+ margin-bottom: 10%;
+ position: absolute;
+ border-radius: 20px;
+}
 @-webkit-keyframes slide {
   20% {margin-left: 0px;}
   30% {margin-left: -728px;}
@@ -91,6 +100,59 @@ transition: .5s;
   border: 2px solid orange;
   font-size: 1.8em;
   text-align: center;
+}
+.first{
+  margin-top: 5.5%;
+  position: absolute;
+  margin-left: 20%;
+  width: 300px;
+  height: 30px;
+}
+.last{
+  margin-top: 15.5%;
+  position: absolute;
+  margin-left: 20%;
+  width: 300px;
+  height: 30px;
+}
+
+.email{
+  margin-top: 25.5%;
+  position: absolute;
+  margin-left: 20%;
+  width: 300px;
+  height: 30px;
+}
+.vraag{
+  margin-top: 35.5%;
+  position: absolute;
+  margin-left: 20%;
+  width: 300px;
+  height: 90px;
+}
+.fn{
+  color: white;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.ln{
+  color: white;
+  position: absolute;
+  margin-top: 15%;
+    margin-left: 5%;
+}
+.em{
+  color: white;
+  position: absolute;
+  margin-top: 25%;
+    margin-left: 5%;
+}
+.qs{
+  color: white;
+  position: absolute;
+  margin-top: 35%;
+    margin-left: 5%;
 }
 .fles{
   margin-top: 85%;
