@@ -2,6 +2,7 @@
 <html lang="nl">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Project MyBand</title>
     <link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
@@ -24,17 +25,9 @@
         <input type="text" class="first" name="First Name" placeholder="Piet">
         <input type="text" class="last" name="Last Name" placeholder="Jan">
         <input type="text" class="email" name="E-mail" placeholder="example@example.com">
-        <input type="text" class="vraag" name="question" placeholder="Your question">
+        <textarea placeholder="Your question" rows="8" cols="80" class="textarea"></textarea>
       </form>
     </div>
-<div class="footer">
-  <p class="rico">Rico Dijkstra ©</p><div class="lijn"></div>
-  <img src="img/c.png" alt="Copyright" class="copyright">
-  <img src="img/instagram.png" alt="instagram" class="ig">
-    <img src="img/facebook.png" alt="facebook" class="fb">
-      <img src="img/youtube.png" alt="youtube" class="yt">
-        <img src="img/twitter.png" alt="twitter" class="tt">
-        <img src="img/soundcloud.png" alt="soundcloud" class="sc">
-</div>
-  </body>
-</html>
+    <?php
+      include 'footer.php';
+     ?>

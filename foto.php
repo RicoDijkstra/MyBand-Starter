@@ -2,6 +2,7 @@
 <html lang="nl">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Project MyBand</title>
     <link rel="stylesheet" href="foto.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
@@ -12,8 +13,8 @@
       <a href="index.php" class="item">home</a>
       <a href="tickets.php" class="item">tickets</a>
       <a href="foto.php" class="item">foto's</a>
-      <a href="#" class="item">nieuws</a>
-      <a href="contact.html" class="item">contact</a>
+      <a href="nieuws.php" class="item">nieuws</a>
+      <a href="contact.php" class="item">contact</a>
     </nav>
 
 <div class="footer">
