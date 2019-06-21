@@ -16,3 +16,8 @@ In deze directory zet je per week al je project documentatie:
 Lees het document [README] in de hoofdmap van dit project voor een overzicht.
 
 [README]: <../README.md>  
+
+
+
+resultaat:
+http://26433.hosts2.ma-cloud.nl/bewijzenmap/periode4/proj/MyBand/
