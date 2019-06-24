@@ -23,15 +23,15 @@ Deze fase duurt 3 weken
 
 | Milestone  | Status | Link | Type Document of cloudservice |
 | ------ |  ------ | ------ | ------ |
-| README                                            | TODO | [README.md]  (dit document)          | MarkDown |
-| B1-K1-W1 Debriefing                               | TODO | [Debriefing]                         | Markdown |
-| B1-K1-W2 Planning                                 | TODO | [Planning]                           | Markdown |
-| B1-K1-W2 Plan van aanpak                          | TODO | [Plan van Aanpak]                    | Markdown of Word/RTF|
-| B1-K1-W2 User stories                             | TODO | [User Stories]                       | Markdown of Word/RTF|
-| B1-K1-W2 Functioneel ontwerp                      | TODO | [FO]                                 | Markdown of Word/RTF|
+| README                                            | x | [README.md]  (dit document)          | MarkDown |
+| B1-K1-W1 Debriefing                               | x | [Debriefing]                         | Markdown |
+| B1-K1-W2 Planning                                 | x | [Planning]                           | Markdown |
+| B1-K1-W2 Plan van aanpak                          | x | [Plan van Aanpak]                    | Markdown of Word/RTF|
+| B1-K1-W2 User stories                             | x | [User Stories]                       | Markdown of Word/RTF|
+| B1-K1-W2 Functioneel ontwerp                      | x | [FO]                                 | Markdown of Word/RTF|
 | B1-K1-W2 Flowchart                                | TODO | [Flow]                               | Afbeelding(en) of geexporteerd uit http://draw.io |
 | B1-K1-W2 Urenschatting                            | TODO | [Urenschatting]                      | Markdown |
-| B1-K1-W2 Wireframes en/of Interactief prototype   | TODO | [axShare]                            | Axshare link of link naar ander online prototype tool |
+| B1-K1-W2 Wireframes en/of Interactief prototype   | x | [axShare]                            | Axshare link of link naar ander online prototype tool |
 | B1-K1-W2 Sfeer impressie / schermontwerpen        | TODO | [Design]                             | Afbeeldingen |
 
 [Kwalificatiedossier]: https://kwalificaties.s-bb.nl/Handlers/DocumentLibrary.ashx?id=276758
@@ -50,7 +50,7 @@ Deze fase duurt 3 weken
 
 | Milestone  | Status | Link |
 | ------ |  ------ | ------ |
-| B1-K1-W2 Product backlog                          | TODO | [Backlog]                            | Link naar Trello met Sprint planningen | |
+| B1-K1-W2 Product backlog                          | x | [Backlog]                            | Link naar Trello met Sprint planningen | |
 | B1-K1-W2 Sprint planning 1, 2 en 3                | TODO | [Trello] / [Trello Tips]             | Link naar Trello met Sprint planningen | |
 | B1-K1-W3 Technisch Ontwerp                        | TODO | [TO]                                 | Markdown of Word/RTF| |
 
@@ -63,7 +63,7 @@ Deze fase duurt 3 weken
 
 | Milestone  | Status | Link |
 | ------ |  ------ | ------ |
-| B1-K3-W2 Link naar de live omgeving                        |  TODO |  <https://mijnliveomgeving.com> |
+| B1-K3-W2 Link naar de live omgeving                        |  x |  <http://26433.hosts2.ma-cloud.nl/bewijzenmap/periode4/proj/MyBand/index.php> |
 | B1-K3-W2 Gebruikersdocumentatie / instructie               |  TODO |  [Gebruikers documentatie] |
 | B1-K3-W3 Evaluatie                                         |  TODO |  [Evaluatie] |
 
